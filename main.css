@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  background-color: rgb(33, 33, 33);
+  color: rgb(198, 198, 198);
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 100;
+  margin: 0 0 0 20px;
+}
+
+h2 {
+  color: rgb(48, 106, 106);
+}
+
+input[type='text'],
+input[type='submit'] {
+  padding: 5px;
+  border: 1px solid whitesmoke;
+  background-color: rgb(218, 218, 218);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+li,
+img {
+  max-width: 500px;
+}
+
+a {
+  color: aqua;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20vh;
+}
+
+.error-message {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
